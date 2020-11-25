@@ -55,7 +55,7 @@ namespace GeometryTest
 
     public static class Algo
     {
-        public static List<Point> GetPoints(double l, double h, double alpha, int n)
+        public static List<Point> GetPoints(int l, int h, int alpha, int n)
         {
             if (l <= 0)
                 throw new ArgumentOutOfRangeException("l");
