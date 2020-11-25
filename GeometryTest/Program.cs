@@ -10,11 +10,11 @@ namespace GeometryTest
         {
             const int n = 6;
             Console.Write("Введите l: ");
-            double l = Convert.ToDouble(Console.ReadLine());
+            int l = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите h: ");
-            double h = Convert.ToDouble(Console.ReadLine());
+            int h = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите alpha: ");
-            double alpha = Convert.ToDouble(Console.ReadLine());
+            int alpha = Convert.ToInt32(Console.ReadLine());
 
             List<Point> points = Algo.GetPoints(l, h, alpha, n);
 

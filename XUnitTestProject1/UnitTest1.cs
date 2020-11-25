@@ -12,9 +12,9 @@ namespace XUnitTestProject1
         public void GetPoints_ValidInput_ExpectedResult()
         {
             int n = 6;
-            double l = 12;
-            double h = 2;
-            double alpha = 45;
+            int l = 12;
+            int h = 2;
+            int alpha = 45;
             List<Point> expected = new List<Point>(8)
             {
                 new Point(2,0), new Point(6,0), new Point(10, 0),
